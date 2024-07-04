@@ -4,7 +4,8 @@ this is the function that sun all ites in a liste
 '''
 
 
-liste = list[float]
+from typing import TypeAlias
+liste: TypeAlias = list[float]
 
 
 def sum_list(input_list: liste) -> float:
