@@ -4,11 +4,9 @@ creating a type floor
 '''
 
 import math
-from typing import NewType
-nono = NewType('nono', float)
 
 
-def floor(n: nono) -> int:
+def floor(n: float) -> int:
     '''
     function parameters:
     n:float
