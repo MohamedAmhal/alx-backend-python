@@ -4,11 +4,10 @@ this is the function that sun all ites in a liste
 '''
 
 
-from typing import TypeAlias
-liste: TypeAlias = list[float]
+from typing import List
 
 
-def sum_list(input_list: liste) -> float:
+def sum_list(input_list: List[float]) -> float:
     '''
     parameters:
     @input_list : the list value
